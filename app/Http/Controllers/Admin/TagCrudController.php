@@ -41,8 +41,8 @@ class TagCrudController extends CrudController
     {
         CRUD::column('id');
         CRUD::column('name');
-        CRUD::column('created_at');
-        CRUD::column('updated_at');
+        // CRUD::column('created_at');
+        // CRUD::column('updated_at');
 
         /**
          * Columns can be defined using the fluent syntax or array syntax:
